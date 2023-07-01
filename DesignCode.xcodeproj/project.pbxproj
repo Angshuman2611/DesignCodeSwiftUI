@@ -14,6 +14,10 @@
 		8F0221122A4FE32B00438F03 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0221112A4FE32B00438F03 /* MenuView.swift */; };
 		8F0221142A4FEA4200438F03 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0221132A4FEA4200438F03 /* Home.swift */; };
 		8F0221162A4FF71E00438F03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0221152A4FF71E00438F03 /* HomeView.swift */; };
+		8F0221182A506CB400438F03 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0221172A506CB400438F03 /* UpdateList.swift */; };
+		8F02211A2A50700D00438F03 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0221192A50700D00438F03 /* UpdateDetail.swift */; };
+		8F02211C2A50727B00438F03 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F02211B2A50727B00438F03 /* UpdateStore.swift */; };
+		8F02211E2A50775500438F03 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F02211D2A50775500438F03 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		8F0221112A4FE32B00438F03 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		8F0221132A4FEA4200438F03 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		8F0221152A4FF71E00438F03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8F0221172A506CB400438F03 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
+		8F0221192A50700D00438F03 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		8F02211B2A50727B00438F03 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		8F02211D2A50775500438F03 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +69,11 @@
 				285EF28F2A4C436A00BE84FC /* ContentView.swift */,
 				8F0221132A4FEA4200438F03 /* Home.swift */,
 				8F0221152A4FF71E00438F03 /* HomeView.swift */,
+				8F0221172A506CB400438F03 /* UpdateList.swift */,
+				8F0221192A50700D00438F03 /* UpdateDetail.swift */,
 				8F0221112A4FE32B00438F03 /* MenuView.swift */,
+				8F02211B2A50727B00438F03 /* UpdateStore.swift */,
+				8F02211D2A50775500438F03 /* TabBar.swift */,
 				285EF2912A4C436C00BE84FC /* Assets.xcassets */,
 				285EF2932A4C436C00BE84FC /* Preview Content */,
 			);
@@ -146,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F02211E2A50775500438F03 /* TabBar.swift in Sources */,
+				8F02211A2A50700D00438F03 /* UpdateDetail.swift in Sources */,
 				285EF2902A4C436A00BE84FC /* ContentView.swift in Sources */,
 				8F0221122A4FE32B00438F03 /* MenuView.swift in Sources */,
+				8F0221182A506CB400438F03 /* UpdateList.swift in Sources */,
+				8F02211C2A50727B00438F03 /* UpdateStore.swift in Sources */,
 				8F0221142A4FEA4200438F03 /* Home.swift in Sources */,
 				8F0221162A4FF71E00438F03 /* HomeView.swift in Sources */,
 				285EF28E2A4C436A00BE84FC /* DesignCodeApp.swift in Sources */,
@@ -279,9 +295,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
-				DEVELOPMENT_TEAM = 829UUG4B6U;
+				DEVELOPMENT_TEAM = WMVM3AJ2LD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Design+Code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nykaa.DesignCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.angshuman.DesignCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,9 +325,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DesignCode/Preview Content\"";
-				DEVELOPMENT_TEAM = 829UUG4B6U;
+				DEVELOPMENT_TEAM = WMVM3AJ2LD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Design+Code";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -321,7 +339,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nykaa.DesignCode;
+				PRODUCT_BUNDLE_IDENTIFIER = com.angshuman.DesignCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
